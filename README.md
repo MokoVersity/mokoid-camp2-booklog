@@ -1,0 +1,142 @@
+# Startup Engineering Camp #2 Indonesia
+
+Hello, Indonesia
+
+We are glad to join this camp to share our experience for you and not only tech but also exchange.
+
+If you have any question, any suggest or any idea to implement, just write down on issues or just send email to us.
+
+Terima kasih 謝謝 (xie xie)
+
+
+# About US
+
+Moko365 Inc. (Tapei, Taiwan)
+
+Jollen Chen (jollen@moko365.com)
+Hank Wang (hank@moko365.com)
+
+[Moko365 on Github](https://github.com/moko365)
+
+# Day 1
+
+- [Github](https://github.com)
+- [Sublime text](http://www.sublimetext.com/3)
+- [Bootstrap](http://getbootstrap.com)
+- [jade](http://jade-lang.com)
+
+## Github
+
+- [Git Application for Mac](http://mac.github.com)
+- [Git Application for Windows](http://windows.github.com)
+- [Get 15 minutes and want to learn Git?](http://try.github.io/)
+
+### Git flow
+
+- create repository
+- git clone
+- git add files
+- git commit -m "message"
+
+**Notice: Always pull/push after commit all tracking files.**
+- git push (need network)
+- git pull (need network)
+
+- git checkout files
+
+## jade
+
+### Installation
+
+```
+$ npm install -g jade
+```
+
+### Run
+
+```
+$ jade templateFolderName
+$ jade template.jade
+$ jade views/*.jade -o public/
+```
+
+### Additional Tool: Convert html to jade 
+
+- [html2jade](https://github.com/donpark/html2jade)
+
+	```
+	$ npm install -g html2jade
+	$ html2jade *.html
+	$ html2jade *.html -o outFolder
+	```
+
+# Learning Resource
+
+- [Startup Engineering on Cousera](https://class.coursera.org/startup-001/class)
+- [bootstrap & html5 overview on Mokoversity](http://www.mokoversity.com/course/html5/bootstrap-html5-intro)
+- [nodejs oveview on Mokoversity](http://www.mokoversity.com/course/html5/nodejs-overview)
+- [jQuery overview on Mokoversity](http://www.mokoversity.com/course/html5/jquery-overview)
+
+
+
+
+# Trouble Shooting
+
+## Trouble 1: how to install Nodejs and jade
+
+Jade will install by npm (include inside NodeJS)
+So we need:
+
+1. Install nodejs
+
+Please visit nodejs website
+
+```
+http://nodejs.org
+```
+
+2. Install jade 
+
+```
+npm install jade --global
+```
+
+*npm* is a command line tool from NodeJS.
+
+
+## Trouble 2: Sublime 3 with HTML generation (Emmet)
+
+### Install Emmet on Sublime Text
+
+	1. Install Package Controller
+	1.1 visit http://sublime.wbond.net/installation
+	1.2 Ctrl + `
+	1.3 Copy and paste install command, press enter
+
+	2. Install Emmet
+	2.1 Ctrl + Shift + P
+	2.2 Type 'Package Control: Install Package'
+  2.3 Type 'Emmet' to find and install.
+	2.4 Restart Sublime after installed.
+	2.5 Happy Zen Coding!
+
+- Save file first before you press Tab
+- Check Sublime. Type 'syntax:html' at Sublime check box (Ctrl + Shift + P)
+
+**See also**
+- http://coding.smashingmagazine.com/2013/03/26/goodbye-zen-coding-hello-emmet/
+- https://sublime.wbond.net/packages/Emmet
+- https://sublime.wbond.net/installation
+
+
+## Trouble 3: Must have jQuery installed along with Bootstrap
+
+[jQuery](http://jquery.com)
+
+- include jquery.min.js before include bootstrap.min.js
+
+
+# More
+
+- Apa Khabar 你好 (ni hao)
+- Terima kasih 謝謝 (xie xie)
