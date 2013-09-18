@@ -73,6 +73,9 @@ $ jade views/*.jade -o public/
 	$ html2jade *.html
 	$ html2jade *.html -o outFolder
 	```
+### See Also
+
+- [Jade Syntax Documentation](http://naltatis.github.io/jade-syntax-docs/)
 
 # Learning Resource
 
