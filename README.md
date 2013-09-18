@@ -13,8 +13,8 @@ Terima kasih 謝謝 (xie xie)
 
 Moko365 Inc. (Tapei, Taiwan)
 
-Jollen Chen (jollen@moko365.com)
-Hank Wang (hank@moko365.com)
+- Jollen Chen (jollen@moko365.com)
+- Hank Wang (hank@moko365.com)
 
 [Moko365 on Github](https://github.com/moko365)
 
@@ -22,8 +22,10 @@ Hank Wang (hank@moko365.com)
 
 - [Github](https://github.com)
 - [Sublime text](http://www.sublimetext.com/3)
+	- [Emmet](http://emmet.io)
 - [Bootstrap](http://getbootstrap.com)
 - [jade](http://jade-lang.com)
+	- [html2jade](https://github.com/donpark/html2jade)
 
 ## Github
 
@@ -35,6 +37,7 @@ Hank Wang (hank@moko365.com)
 
 - create repository
 - git clone
+- git status
 - git add files
 - git commit -m "message"
 
@@ -43,6 +46,7 @@ Hank Wang (hank@moko365.com)
 - git pull (need network)
 
 - git checkout files
+- git diff
 
 ## jade
 
@@ -108,17 +112,17 @@ npm install jade --global
 
 ### Install Emmet on Sublime Text
 
-	1. Install Package Controller
-	1.1 visit http://sublime.wbond.net/installation
-	1.2 Ctrl + `
-	1.3 Copy and paste install command, press enter
+1. Install Package Controller
+1.1 visit http://sublime.wbond.net/installation
+1.2 Ctrl + `
+1.3 Copy and paste install command, press enter
 
-	2. Install Emmet
-	2.1 Ctrl + Shift + P
-	2.2 Type 'Package Control: Install Package'
-  2.3 Type 'Emmet' to find and install.
-	2.4 Restart Sublime after installed.
-	2.5 Happy Zen Coding!
+2. Install [Emmet](http://emmet.io)
+2.1 Ctrl + Shift + P
+2.2 Type 'Package Control: Install Package'
+2.3 Type 'Emmet' to find and install.
+2.4 Restart Sublime after installed.
+2.5 Happy Zen Coding!
 
 - Save file first before you press Tab
 - Check Sublime. Type 'syntax:html' at Sublime check box (Ctrl + Shift + P)
@@ -131,9 +135,13 @@ npm install jade --global
 
 ## Trouble 3: Must have jQuery installed along with Bootstrap
 
-[jQuery](http://jquery.com)
+- [jQuery](http://jquery.com)
+- Include jquery.min.js before include bootstrap.min.js
 
-- include jquery.min.js before include bootstrap.min.js
+```
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+```
 
 
 # More
