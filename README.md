@@ -176,14 +176,14 @@ npm install jade --global
 <script src="bootstrap.min.js"></script>
 ```
 
-# Trouble 4: Difference between LESS, SCSS and SASS
+## Trouble 4: Difference between LESS, SCSS and SASS
 
 - SCSS is an extension of CSS and with @extend behavior
 - SASS is meta language of CSS
 - LESS is also an extension of CSS but without @extend behavior. LESS is able to include CSS files
 
 
-# Trouble 5: How to install npm packages through HTTP/Proxy
+## Trouble 5: How to install npm packages through HTTP/Proxy
 
 - Disable SSL of npm
 
@@ -203,9 +203,9 @@ npm config set registry "http://registry.npmjs.org"
 npm --proxy http://10.14.211.120:8080 install -g jade
 ```
 
-# Trouble 6: Install SASS on Windows
+## Trouble 6: Install SASS on Windows
 
-- http://www.impressivewebs.com/sass-on-windows/
+- [http://www.impressivewebs.com/sass-on-windows/](http://www.impressivewebs.com/sass-on-windows/)
 
 - Install sass through proxy
 
@@ -218,15 +218,7 @@ gem install sass -p http://10.14.211.120:8080
 ```
 sass -v
 ```
-
-# Trouble 7: Install bower packages through proxy
-
-```
-export http_proxy=http://10.14.211.120:8080
-bower install bootstrap
-```
-
-- Please make sure that Git can also go through proxy
+**If you can't get this work on Windows, please set your ruby bin folder to your PATH environment variables**
 
 # More
 
