@@ -134,6 +134,8 @@ sass --watch sass:public/css
 	$ bower uninstall bootstrap --save
 	```
 
+Bower will install your packages on bower_components folder in default, so you need a config file to change default install folder.
+
 **.bowerrc**
 ```
 {
