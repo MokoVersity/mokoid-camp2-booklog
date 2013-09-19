@@ -94,6 +94,19 @@ sass style.sass:style.css
 
 * Why use meta languages such as Jade and SASS. It's becausse that the meta form is easy to maintain and extend anything.
 
+- Step 3: Watch your changes
+- 
+```
+sass --watch style.sass:style.css
+```
+
+Also you can wath a folder. For example, wath all sass files in sass folder and publish css into public/css folder.
+
+```
+sass --watch sass/:public/css/
+
+```
+
 # Learning Resource
 
 - [Startup Engineering on Cousera](https://class.coursera.org/startup-001/class)
