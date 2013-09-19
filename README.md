@@ -146,7 +146,11 @@ npm install jade --global
 <script src="bootstrap.min.js"></script>
 ```
 
+# Trouble 5: Difference between LESS, SCSS and SASS
 
+- SCSS is an extension of CSS and with @extend behavior
+- SASS is meta language of CSS
+- LESS is also an extension of CSS but without @extend behavior
 # More
 
 - Apa Khabar 你好 (ni hao)
