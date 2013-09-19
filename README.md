@@ -194,6 +194,10 @@ npm --proxy http://10.14.211.120:8080 install -g sass
 npm --proxy http://10.14.211.120:8080 install -g jade
 ```
 
+# Trouble 6: Install SASS on Windows
+
+- http://www.impressivewebs.com/sass-on-windows/
+
 # More
 
 - Apa Khabar 你好 (ni hao)
