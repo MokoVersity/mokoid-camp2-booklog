@@ -80,18 +80,19 @@ $ jade views/*.jade -o public/
 
 ## SASS
 
-1. Install SASS compiler by npm first
+- Step 1: Install SASS compiler by npm first
 
 ```
 npm install -g sass
-
 ```
 
-2. Using SASS compiler to generate CSS from SASS
+- Step 2:  Using SASS compiler to generate CSS from SASS
 
 ```
 sass style.sass:style.css
 ```
+
+* Why use meta languages such as Jade and SASS. It's becausse that the meta form is easy to maintain and extend anything.
 
 # Learning Resource
 
