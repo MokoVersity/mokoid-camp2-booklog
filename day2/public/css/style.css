@@ -1,22 +1,14 @@
 body {
-    color: #333;
-    font-family: 'Open Sans',sans-serif;
-}
-
+  color: #333333;
+  font-family: "Open Sans", sans-serif; }
 
 #author img {
-    width: 48px;
-    height: 48px;
-}
+  width: 96px;
+  height: 96px; }
 
 .book-info {
-    padding-bottom: 10px;
-}
-
-.book-info h3 {
-    border-bottom: 1px solid #ccc;
-}
-
-.book-info li {
-    list-style: none;
-}
+  padding-bottom: 10px; }
+  .book-info h3 {
+    border-bottom: 1px solid #cccccc; }
+  .book-info li {
+    list-style: none; }
