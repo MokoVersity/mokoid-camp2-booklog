@@ -1,0 +1,44 @@
+extends layout
+
+block head
+  title Booklog
+
+block neck
+  link(rel='stylesheet', href="public/css/style.css")
+  link(rel='stylesheet', href="public/css/wiki.css")
+
+block body
+  .container
+    .row
+      .col-md-12
+        h1.page-header Learning Startup Engineering
+        .col-md-8.wiki-page
+          .wiki-content
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quo similique eos a excepturi quisquam perspiciatis odit dolorem itaque provident. Harum, quasi, incidunt officiis dicta iste ut dolorem rerum expedita!
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, pariatur mollitia culpa necessitatibus odit impedit quas velit nemo labore explicabo corporis in architecto deserunt nulla libero dignissimos excepturi tenetur repellendus.
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, doloremque, ut, ipsa, qui eligendi repudiandae voluptates nihil adipisci pariatur harum quaerat dolore rerum ea magni unde at quos quia impedit.
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, explicabo commodi officiis possimus ipsum dolorem cupiditate odit consequuntur necessitatibus aspernatur tempora sed sunt qui iusto sequi illum vitae sint enim.
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt soluta esse amet fugiat eaque consequatur! Eius, id sunt facere mollitia qui eum a debitis saepe provident voluptas at error possimus.
+        .col-md-4
+          .well.sidebar-nav
+            #book-category.book-info
+              h3 Category
+              ul.list-group
+                li.list-group-item
+                  a(href="#") Learning Startup Engineering
+                li.list-group-item
+                  a(href="#") Second Chapter
+                li.list-group-item
+                  a(href="#") Third Chapter
+
+            #author.book-info
+              h3 Author
+              p
+                img.img-circle(src="http://www.gravatar.com/avatar/ab7613f4699348155cb6ca555c42508d")
+                |  Hank Wang
+            #tags.book-info
+              h3 Tags
+
+              .label.label-info Tech
+              .label.label-success Web
+              .label.label-default HTML5

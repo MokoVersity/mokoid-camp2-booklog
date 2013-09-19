@@ -1,0 +1,19 @@
+extends layout
+
+block body
+  .container
+    .row
+      .col-md-6
+        .page-header
+          h1 Contact Us
+        form(role='form')
+          .form-group
+            label(for='exampleInputName') Name
+            input#exampleInputName.form-control(type='name', placeholder='Name')
+          .form-group
+            label(for='exampleInputEmail1') Email address
+            input#exampleInputEmail1.form-control(type='email', placeholder='Email')
+          .form-group
+            label(for='exampleMessage') Message
+            textarea#exampleMessage.form-control(name='message', cols='30', rows='10', placeholder='Write something down')
+          button.btn.btn-primary.pull-right(type='submit') Submit
