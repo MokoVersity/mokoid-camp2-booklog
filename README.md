@@ -219,6 +219,15 @@ gem install sass -p http://10.14.211.120:8080
 sass -v
 ```
 
+# Trouble 7: Install bower packages through proxy
+
+```
+export http_proxy=http://10.14.211.120:8080
+bower install bootstrap
+```
+
+- Please make sure that Git can also go through proxy
+
 # More
 
 - Apa Khabar 你好 (ni hao)
