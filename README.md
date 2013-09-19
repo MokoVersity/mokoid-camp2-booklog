@@ -80,7 +80,7 @@ $ jade views/*.jade -o public/
 
 ## SASS
 
-* Why use meta languages such as Jade and SASS. It's becausse that the meta form is easy to maintain and extend anything.
+* Why use meta languages such as Jade and SASS. It's because that this meta form is easy to maintain and to extend anything.
 
 - Step 1: Install SASS compiler by npm first
 
@@ -100,7 +100,7 @@ sass style.sass:style.css
 sass --watch style.sass:style.css
 ```
 
-Also you can wath a folder. For example, wath all sass files in sass folder and publish css into public/css folder.
+Also you can watch a folder. For example, wath all sass files in sass folder and publish css into public/css folder.
 
 ```
 sass --watch sass/:public/css/
