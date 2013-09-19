@@ -143,6 +143,39 @@ Bower will install your packages on bower_components folder in default, so you n
 }
 ```
 
+## Express
+
+### Installation
+
+```
+$ npm install -g express
+```
+
+### Initialize ExpressJS
+
+```
+$ express
+```
+
+**Please run this command on your project folder like this:**
+
+```
+C:\Users\Hank\myProjects\booklog-camp> 
+C:\Users\Hank\myProjects\booklog-camp> express
+```
+
+### Install dependencies packages
+
+```
+$ npm i
+```
+
+### Run web server
+
+```
+$ node app.js
+```
+
 # Learning Resource
 
 - [Startup Engineering on Cousera](https://class.coursera.org/startup-001/class)
