@@ -197,7 +197,13 @@ npm --proxy http://10.14.211.120:8080 install -g jade
 - Install sass through proxy
 
 ```
-gem install sass -P http://10.14.211.120:8080
+gem install sass -p http://10.14.211.120:8080
+```
+
+- How to check your nstallation 
+
+```
+sass -v
 ```
 
 # More
