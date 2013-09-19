@@ -1,0 +1,20 @@
+{
+  "name": "booklog-camp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/moko365/booklog-camp",
+  "authors": [
+    "Hank Wang <drapho@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}
