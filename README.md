@@ -27,6 +27,12 @@ Moko365 Inc. (Tapei, Taiwan)
 - [jade](http://jade-lang.com)
 	- [html2jade](https://github.com/donpark/html2jade)
 
+# Day 2
+
+- [Sass](https://sass-lang.com)
+- [Bower](http://bower.io)
+- [Express](http://expressjs.com)
+
 ## Github
 
 - [Git Application for Mac](http://mac.github.com)
@@ -64,7 +70,9 @@ $ jade template.jade
 $ jade views/*.jade -o public/
 ```
 
-### Additional Tool: Convert html to jade 
+### html2jade: Convert html to jade 
+
+** It's not working on Windows, so please use [html2jade.aaron-powell.com](http://html2jade.aaron-powell.com) instead.
 
 - [html2jade](https://github.com/donpark/html2jade)
 
@@ -82,19 +90,19 @@ $ jade views/*.jade -o public/
 
 * Why use meta languages such as Jade and SASS. It's because that this meta form is easy to maintain and to extend anything.
 
-- Step 1: Install SASS compiler by npm first
+### Install SASS compiler by npm first
 
 ```
 npm install -g sass
 ```
 
-- Step 2:  Using SASS compiler to generate CSS from SASS
+### Using SASS compiler to generate CSS from SASS
 
 ```
 sass style.sass:style.css
 ```
 
-- Step 3: Watch your changes
+### Watch your changes
 
 ```
 sass --watch style.sass:style.css
@@ -103,8 +111,34 @@ sass --watch style.sass:style.css
 Also you can watch a folder. For example, wath all sass files in sass folder and publish css into public/css folder.
 
 ```
-sass --watch sass/:public/css/
+sass --watch sass:public/css
+```
 
+### convert css to sass
+	```
+	$ sass-convert -F css -T sass public/css/wiki.css sass/wiki.sass
+	```
+
+## Bower
+
+- [bower](http://bower.io)
+
+	```
+	$ npm install -g bower
+	```
+
+	```
+	$ bower init
+	$ bower install bootstrap --save
+	$ bower list
+	$ bower uninstall bootstrap --save
+	```
+
+**.bowerrc**
+```
+{
+    "directory": "public/vendor"
+}
 ```
 
 # Learning Resource
