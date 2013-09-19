@@ -131,11 +131,13 @@ npm install jade --global
 ### Install Emmet on Sublime Text
 
 1. Install Package Controller
+
 -- 1.1 visit http://sublime.wbond.net/installation
 -- 1.2 Ctrl + `
 -- 1.3 Copy and paste install command, press enter
 
 2. Install [Emmet](http://emmet.io)
+ 
 -- 2.1 Ctrl + Shift + P
 -- 2.2 Type 'Package Control: Install Package'
 -- 2.3 Type 'Emmet' to find and install.
@@ -182,14 +184,8 @@ npm config set strict-ssl false
 npm config set registry "http://registry.npmjs.org"
 ```
 
-- Install packages through proxy here
+- Install packages through proxy here, eg. Jade
  
-```
-npm --proxy http://10.14.211.120:8080 install -g sass
-```
-
-- Same with other packages, eg. Jade
-
 ```
 npm --proxy http://10.14.211.120:8080 install -g jade
 ```
