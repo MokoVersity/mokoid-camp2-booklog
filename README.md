@@ -77,13 +77,6 @@ $ jade views/*.jade -o public/
 
 - [Jade Syntax Documentation](http://naltatis.github.io/jade-syntax-docs/)
 
-# Learning Resource
-
-- [Startup Engineering on Cousera](https://class.coursera.org/startup-001/class)
-- [bootstrap & html5 overview on Mokoversity](http://www.mokoversity.com/course/html5/bootstrap-html5-intro)
-- [nodejs oveview on Mokoversity](http://www.mokoversity.com/course/html5/nodejs-overview)
-- [jQuery overview on Mokoversity](http://www.mokoversity.com/course/html5/jquery-overview)
-
 
 ## SASS
 
@@ -99,6 +92,14 @@ npm install -g sass
 ```
 sass style.sass:style.css
 ```
+
+# Learning Resource
+
+- [Startup Engineering on Cousera](https://class.coursera.org/startup-001/class)
+- [bootstrap & html5 overview on Mokoversity](http://www.mokoversity.com/course/html5/bootstrap-html5-intro)
+- [nodejs oveview on Mokoversity](http://www.mokoversity.com/course/html5/nodejs-overview)
+- [jQuery overview on Mokoversity](http://www.mokoversity.com/course/html5/jquery-overview)
+
 
 # Trouble Shooting
 
