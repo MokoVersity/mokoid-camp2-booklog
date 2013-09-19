@@ -85,7 +85,20 @@ $ jade views/*.jade -o public/
 - [jQuery overview on Mokoversity](http://www.mokoversity.com/course/html5/jquery-overview)
 
 
+## SASS
 
+1. Install SASS compiler by npm first
+
+```
+npm install -g sass
+
+```
+
+2. Using SASS compiler to generate CSS from SASS
+
+```
+sass style.sass:style.css
+```
 
 # Trouble Shooting
 
