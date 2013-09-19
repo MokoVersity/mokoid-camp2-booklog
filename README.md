@@ -131,16 +131,16 @@ npm install jade --global
 ### Install Emmet on Sublime Text
 
 1. Install Package Controller
-1.1 visit http://sublime.wbond.net/installation
-1.2 Ctrl + `
-1.3 Copy and paste install command, press enter
+-- 1.1 visit http://sublime.wbond.net/installation
+-- 1.2 Ctrl + `
+-- 1.3 Copy and paste install command, press enter
 
 2. Install [Emmet](http://emmet.io)
-2.1 Ctrl + Shift + P
-2.2 Type 'Package Control: Install Package'
-2.3 Type 'Emmet' to find and install.
-2.4 Restart Sublime after installed.
-2.5 Happy Zen Coding!
+-- 2.1 Ctrl + Shift + P
+-- 2.2 Type 'Package Control: Install Package'
+-- 2.3 Type 'Emmet' to find and install.
+-- 2.4 Restart Sublime after installed.
+-- 2.5 Happy Zen Coding!
 
 - Save file first before you press Tab
 - Check Sublime. Type 'syntax:html' at Sublime check box (Ctrl + Shift + P)
