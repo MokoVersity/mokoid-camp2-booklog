@@ -168,6 +168,26 @@ npm install jade --global
 - LESS is also an extension of CSS but without @extend behavior. LESS is able to include CSS files
 
 
+# Trouble 5: 
+
+- Disable SSL of npm
+
+```
+npm config set strict-ssl false
+```
+
+- Set npm registry to http:// instead of https://
+
+```
+npm config set registry "http://registry.npmjs.org"
+```
+
+- Install packages through proxy here
+ 
+```
+npm --proxy http://10.14.211.120:8080 install -g sass
+```
+
 # More
 
 - Apa Khabar 你好 (ni hao)
