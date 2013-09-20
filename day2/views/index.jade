@@ -5,7 +5,7 @@ block head
 
 block neck
   link(rel='stylesheet', href="/css/style.css")
-  link(rel='stylesheet', href="public/css/wiki.css")
+  link(rel='stylesheet', href="/css/wiki.css")
 
 block foot
   script(src="/js/main.js")
@@ -37,8 +37,8 @@ block body
             #author.book-info
               h3 Author
               p
-                img.img-circle(src="http://www.gravatar.com/avatar/ab7613f4699348155cb6ca555c42508d")
-                |  Hank Wang
+                img.img-circle(src="http://www.gravatar.com/avatar/#{hash}")
+                |  #{name}
             #tags.book-info
               h3 Tags
 
