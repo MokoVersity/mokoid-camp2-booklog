@@ -31,6 +31,19 @@ app.get('/', routes.index);
 app.get('/contact', routes.contact);
 app.get('/about', routes.about);
 
+
+app.post('/api/book/', routes.create); // Create a new book
+
+// /api/book/12345
+app.get('/api/book/:bookid', routes.get); // get a book
+
+// /api/book/12345/StartupBook
+app.get('/api/book/:bookid/:bookname', routes.getName); // get a book name
+
+app.put('/api/book/:id', routes.update); // update my book info
+app.delete('/api/book/:id', routes.delete); // delete my book
+
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
